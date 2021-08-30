@@ -1,5 +1,13 @@
 {
-  "dependencies": {
-    "node-fetch": "^2.6.1"
+  "name": "exchange-api",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.5.1",
+	"node-fetch": "^2.6.1"
   }
 }
